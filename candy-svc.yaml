@@ -1,0 +1,26 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: ServiceAccount
+  metadata:
+    creationTimestamp: "2019-12-18T08:32:37Z"
+    name: candy-svc
+    namespace: default
+    resourceVersion: "486"
+    selfLink: /api/v1/namespaces/default/serviceaccounts/candy-svc
+    uid: f24d65a5-2170-11ea-bc7e-12f728b1e81d
+  secrets:
+  - name: candy-svc-token-9lldf
+- apiVersion: v1
+  kind: ServiceAccount
+  metadata:
+    creationTimestamp: "2019-12-18T08:32:26Z"
+    name: default
+    namespace: default
+    resourceVersion: "358"
+    selfLink: /api/v1/namespaces/default/serviceaccounts/default
+    uid: ec1afa94-2170-11ea-bc7e-12f728b1e81d
+  secrets:
+  - name: default-token-cqhlc
+kind: List
+metadata: {}
