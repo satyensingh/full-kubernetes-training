@@ -1,11 +1,8 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  annotations:
-    deployment.kubernetes.io/revision: "1"
   name: candy-deployment
 spec:
-  progressDeadlineSeconds: 600
   replicas: 2
   revisionHistoryLimit: 10
   selector:
